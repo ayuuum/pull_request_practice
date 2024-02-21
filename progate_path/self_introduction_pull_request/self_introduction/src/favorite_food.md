@@ -1,3 +1,1 @@
-# favorite food
-
-apple
+# favorite
