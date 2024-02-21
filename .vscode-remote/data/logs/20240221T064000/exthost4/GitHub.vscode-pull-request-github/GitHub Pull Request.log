@@ -1,0 +1,49 @@
+2024-02-21 08:46:09.863 [warning] /home/vscode/.ssh/config: ENOENT: no such file or directory, open '/home/vscode/.ssh/config'
+2024-02-21 08:46:09.863 [info] Activation> Extension version: 0.78.1
+2024-02-21 08:46:13.755 [info] Looking for git repository
+2024-02-21 08:46:13.755 [info] Found 0 repositories during activation
+2024-02-21 08:46:13.755 [info] Git repository found, initializing review manager and pr tree view.
+2024-02-21 08:46:13.756 [info] Registering git provider
+2024-02-21 08:59:06.596 [info] Repository file:///home/vscode/progate_path/self_introduction_push/self_introduction has been opened
+2024-02-21 08:59:06.596 [info] Review+0> Validate state in progress
+2024-02-21 08:59:06.596 [info] Review+0> Validating state...
+2024-02-21 08:59:06.597 [warning] No remotes found. The following remotes are missing: origin, upstream
+2024-02-21 08:59:06.597 [info] No GitHub remotes found for folder /home/vscode/progate_path/self_introduction_push/self_introduction
+2024-02-21 08:59:06.744 [info] Review+0> Queuing additional validate state
+2024-02-21 08:59:06.744 [info] Repo state for file:///home/vscode/progate_path/self_introduction_push/self_introduction changed.
+2024-02-21 08:59:06.744 [info] Repo file:///home/vscode/progate_path/self_introduction_push/self_introduction has already been setup.
+2024-02-21 08:59:07.046 [info] Review+0> Validating state...
+2024-02-21 08:59:07.046 [warning] No remotes found. The following remotes are missing: origin, upstream
+2024-02-21 08:59:07.046 [info] No GitHub remotes found for folder /home/vscode/progate_path/self_introduction_push/self_introduction
+2024-02-21 08:59:07.136 [info] Review+0> No matching pull request metadata found locally for current branch main
+2024-02-21 08:59:07.141 [info] Review+0> Failed to get upstream for branch main from git config.
+2024-02-21 08:59:07.142 [info] Review+0> No matching pull request metadata found on GitHub for current branch main
+2024-02-21 08:59:20.358 [info] Review+0> Validate state in progress
+2024-02-21 08:59:20.358 [info] Review+0> Validating state...
+2024-02-21 08:59:20.360 [warning] No remotes found. The following remotes are missing: origin, upstream
+2024-02-21 08:59:20.361 [info] No GitHub remotes found for folder /home/vscode/progate_path/self_introduction_push/self_introduction
+2024-02-21 08:59:20.421 [info] Review+0> No matching pull request metadata found locally for current branch main
+2024-02-21 08:59:20.422 [info] Review+0> Failed to get upstream for branch main from git config.
+2024-02-21 08:59:20.422 [info] Review+0> No matching pull request metadata found on GitHub for current branch main
+2024-02-21 09:01:35.604 [info] Review+0> Validate state in progress
+2024-02-21 09:01:35.604 [info] Review+0> Validating state...
+2024-02-21 09:01:35.719 [info] Found GitHub remote for folder /home/vscode/progate_path/self_introduction_push/self_introduction
+2024-02-21 09:01:36.149 [info] Trying to use globalState for assignableUsers.
+2024-02-21 09:01:36.356 [info] Review+0> No matching pull request metadata found locally for current branch main
+2024-02-21 09:01:36.379 [info] Review+0> Failed to get upstream for branch main from git config.
+2024-02-21 09:01:36.380 [info] Review+0> No matching pull request metadata found on GitHub for current branch main
+2024-02-21 09:01:36.486 [info] No globalState for assignableUsers.
+2024-02-21 09:06:39.427 [info] Review+0> Validate state in progress
+2024-02-21 09:06:39.427 [info] Review+0> Validating state...
+2024-02-21 09:06:39.520 [info] Found GitHub remote for folder /home/vscode/progate_path/self_introduction_push/self_introduction
+2024-02-21 09:06:39.521 [info] Using in-memory cached assignable users.
+2024-02-21 09:06:39.766 [info] Review+0> No matching pull request metadata found locally for current branch branch-a
+2024-02-21 09:06:39.780 [info] Review+0> Failed to get upstream for branch branch-a from git config.
+2024-02-21 09:06:39.780 [info] Review+0> No matching pull request metadata found on GitHub for current branch branch-a
+2024-02-21 09:07:14.579 [info] Review+0> Validate state in progress
+2024-02-21 09:07:14.579 [info] Review+0> Validating state...
+2024-02-21 09:07:14.779 [info] Found GitHub remote for folder /home/vscode/progate_path/self_introduction_push/self_introduction
+2024-02-21 09:07:14.780 [info] Using in-memory cached assignable users.
+2024-02-21 09:07:14.851 [info] Review+0> No matching pull request metadata found locally for current branch branch-a
+2024-02-21 09:07:14.854 [info] Review+0> Failed to get upstream for branch branch-a from git config.
+2024-02-21 09:07:14.854 [info] Review+0> No matching pull request metadata found on GitHub for current branch branch-a

@@ -1,0 +1,7 @@
+[user]
+	name = <松井>
+	email = <hkn10ksmn@keio.jp>
+[init]
+	defaultBranch = main
+[core]
+	editor = code --wait

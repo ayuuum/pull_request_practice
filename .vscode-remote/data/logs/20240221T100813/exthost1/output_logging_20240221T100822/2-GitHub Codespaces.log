@@ -1,0 +1,905 @@
+[Client I] GitHub Codespaces version 1.16.10
+[Client I] isRunningInWeb: "true"
+[Client V] Initializing authentication
+[API I] Successfully signed in
+[Client:extension:feb1 I] initializing
+[Client:extension:feb1 I] creating LiveShare ConnectionHub
+[Client:extension:feb1:resolver I] created with protocol "codespaces"
+[RemoteExplorer I] Updating codespace performance info
+[Client I] Connecting to current codespace: turbo-funicular-gj55jjv9rgq2r5
+[Command:Connect I] Decorator starting: ErrorNotification
+[Command:Connect I] Decorator starting: Telemetry
+[Client I] Jupyter API registered? false
+[API:retries-left-2 I] making GET request for "https://api.github.com/user/codespaces/turbo-funicular-gj55jjv9rgq2r5"
+[RemoteExplorer I] Updating codespace performance info
+[Client:extension:feb1:resolver:resolve:1 I] resolve retry #3
+[Command:Connect I] Command [Connect to Codespace]: Connect to Codespace Success (1231ms)
+[Command:Connect I] Decorator finishing: Telemetry. Duration: 3ms (2 + 1)
+[Client:extension:feb1:resolver:resolve:1 I] resolving "codespaces+turbo-funicular-gj55jjv9rgq2r5"
+[Client:extension:feb1:resolver:resolve:1 I] codespace: "turbo-funicular-gj55jjv9rgq2r5", fetching details
+[Command:Connect I] Decorator finishing: ErrorNotification. Duration: 1ms (0 + 1)
+[Client:extension:feb1:resolver:resolve:1:fetch-codespace-info I] fetching codespace details for "turbo-funicular-gj55jjv9rgq2r5"
+[Client:extension:feb1:resolver:resolve:1:fetch-codespace-info I] signed in, getting the details
+[Client:extension:feb1:resolver:resolve:1:fetch-codespace-info I] fetching codespace "turbo-funicular-gj55jjv9rgq2r5" (retries left: 2)
+[API:retries-left-2 I] making GET request for "https://api.github.com/user/codespaces/turbo-funicular-gj55jjv9rgq2r5"
+[RemoteExplorer I] Updating codespace performance info
+[Client:extension:feb1:resolver I] successfully fetched codespace details> object #0: {
+  "id": 13773943,
+  "name": "<30:<redacted>>",
+  "environment_id": "413bc4de-3261-46e1-9739-4a50355a356e",
+  "owner": "<undefined:<redacted>>",
+  "billable_owner": {
+    "login": "ayuuum",
+    "id": 108732694,
+    "node_id": "U_kgDOBnshFg",
+    "avatar_url": "https://avatars.githubusercontent.com/u/108732694?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/ayuuum",
+    "html_url": "https://github.com/ayuuum",
+    "followers_url": "https://api.github.com/users/ayuuum/followers",
+    "following_url": "https://api.github.com/users/ayuuum/following{/other_user}",
+    "gists_url": "https://api.github.com/users/ayuuum/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/ayuuum/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/ayuuum/subscriptions",
+    "organizations_url": "https://api.github.com/users/ayuuum/orgs",
+    "repos_url": "https://api.github.com/users/ayuuum/repos",
+    "events_url": "https://api.github.com/users/ayuuum/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/ayuuum/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "repository": {
+    "id": 587537775,
+    "node_id": "R_kgDOIwUdbw",
+    "name": "<22:<redacted>>",
+    "full_name": "Progate/path-study-environment",
+    "private": false,
+    "owner": "<undefined:<redacted>>",
+    "html_url": "https://github.com/Progate/path-study-environment",
+    "description": null,
+    "fork": false,
+    "url": "https://api.github.com/repos/Progate/path-study-environment",
+    "forks_url": "https://api.github.com/repos/Progate/path-study-environment/forks",
+    "keys_url": "https://api.github.com/repos/Progate/path-study-environment/keys{/key_id}",
+    "collaborators_url": "https://api.github.com/repos/Progate/path-study-environment/collaborators{/collaborator}",
+    "teams_url": "https://api.github.com/repos/Progate/path-study-environment/teams",
+    "hooks_url": "https://api.github.com/repos/Progate/path-study-environment/hooks",
+    "issue_events_url": "https://api.github.com/repos/Progate/path-study-environment/issues/events{/number}",
+    "events_url": "https://api.github.com/repos/Progate/path-study-environment/events",
+    "assignees_url": "https://api.github.com/repos/Progate/path-study-environment/assignees{/user}",
+    "branches_url": "https://api.github.com/repos/Progate/path-study-environment/branches{/branch}",
+    "tags_url": "https://api.github.com/repos/Progate/path-study-environment/tags",
+    "blobs_url": "https://api.github.com/repos/Progate/path-study-environment/git/blobs{/sha}",
+    "git_tags_url": "https://api.github.com/repos/Progate/path-study-environment/git/tags{/sha}",
+    "git_refs_url": "https://api.github.com/repos/Progate/path-study-environment/git/refs{/sha}",
+    "trees_url": "https://api.github.com/repos/Progate/path-study-environment/git/trees{/sha}",
+    "statuses_url": "https://api.github.com/repos/Progate/path-study-environment/statuses/{sha}",
+    "languages_url": "https://api.github.com/repos/Progate/path-study-environment/languages",
+    "stargazers_url": "https://api.github.com/repos/Progate/path-study-environment/stargazers",
+    "contributors_url": "https://api.github.com/repos/Progate/path-study-environment/contributors",
+    "subscribers_url": "https://api.github.com/repos/Progate/path-study-environment/subscribers",
+    "subscription_url": "https://api.github.com/repos/Progate/path-study-environment/subscription",
+    "commits_url": "https://api.github.com/repos/Progate/path-study-environment/commits{/sha}",
+    "git_commits_url": "https://api.github.com/repos/Progate/path-study-environment/git/commits{/sha}",
+    "comments_url": "https://api.github.com/repos/Progate/path-study-environment/comments{/number}",
+    "issue_comment_url": "https://api.github.com/repos/Progate/path-study-environment/issues/comments{/number}",
+    "contents_url": "https://api.github.com/repos/Progate/path-study-environment/contents/{+path}",
+    "compare_url": "https://api.github.com/repos/Progate/path-study-environment/compare/{base}...{head}",
+    "merges_url": "https://api.github.com/repos/Progate/path-study-environment/merges",
+    "archive_url": "https://api.github.com/repos/Progate/path-study-environment/{archive_format}{/ref}",
+    "downloads_url": "https://api.github.com/repos/Progate/path-study-environment/downloads",
+    "issues_url": "https://api.github.com/repos/Progate/path-study-environment/issues{/number}",
+    "pulls_url": "https://api.github.com/repos/Progate/path-study-environment/pulls{/number}",
+    "milestones_url": "https://api.github.com/repos/Progate/path-study-environment/milestones{/number}",
+    "notifications_url": "https://api.github.com/repos/Progate/path-study-environment/notifications{?since,all,participating}",
+    "labels_url": "https://api.github.com/repos/Progate/path-study-environment/labels{/name}",
+    "releases_url": "https://api.github.com/repos/Progate/path-study-environment/releases{/id}",
+    "deployments_url": "https://api.github.com/repos/Progate/path-study-environment/deployments"
+  },
+  "machine": {
+    "name": "<14:<redacted>>",
+    "display_name": "2 cores, 8 GB RAM, 32 GB storage",
+    "operating_system": "linux",
+    "storage_in_bytes": 34359738368,
+    "memory_in_bytes": 8589934592,
+    "cpus": 2,
+    "prebuild_availability": null
+  },
+  "prebuild": null,
+  "created_at": "2024-02-21T15:33:14+09:00",
+  "updated_at": "2024-02-21T19:08:45+09:00",
+  "last_used_at": "2024-02-21T19:07:53+09:00",
+  "state": "Available",
+  "url": "https://api.github.com/user/codespaces/turbo-funicular-gj55jjv9rgq2r5",
+  "git_status": {
+    "ahead": 0,
+    "behind": 0,
+    "has_unpushed_changes": false,
+    "has_uncommitted_changes": false,
+    "ref": "main"
+  },
+  "location": "SouthEastAsia",
+  "idle_timeout_minutes": 30,
+  "web_url": "https://turbo-funicular-gj55jjv9rgq2r5.github.dev",
+  "machines_url": "https://api.github.com/user/codespaces/turbo-funicular-gj55jjv9rgq2r5/machines",
+  "start_url": "https://api.github.com/user/codespaces/turbo-funicular-gj55jjv9rgq2r5/start",
+  "stop_url": "https://api.github.com/user/codespaces/turbo-funicular-gj55jjv9rgq2r5/stop",
+  "pulls_url": null,
+  "recent_folders": [
+    "/home/vscode/progate_path/self_introduction_pull_request/self_introduction",
+    "/home/vscode/progate_path/self_introduction_push/self_introduction",
+    "/home/vscode/progate_path/self_introduction_branch/self_introduction",
+    "/home/vscode"
+  ],
+  "runtime_constraints": {
+    "allowed_port_privacy_settings": [
+      "private",
+      "public"
+    ]
+  },
+  "connection": {
+    "sessionId": "46617513490E9C3332465A767B2DA9102321",
+    "sessionPath": "/home/vscode",
+    "serviceUri": "https://prod.liveshare.vsengsaas.visualstudio.com/api/v1.2/",
+    "relayEndpoint": "sb://vsls-prod-ins-asse-private-relay.servicebus.windows.net/569c937c1d96c089c22e4bcfb1cd3181ec24--5c8702a5-7c25-44ac-ad0c-684be1d00fb5",
+    "relaySas": "<255:<redacted>>",
+    "sessionToken": "<1118:<redacted>>",
+    "hostPublicKeys": [
+      "AAAAB3NzaC1yc2EAAAADAQABAAABAQDU9mjD3pnFowWJnk8Pgf/35mZqbtiKFHJjXUuiYhcQ6sFEfZ2QzVBk6dsB9PvM74Q5qktnciwrm/xv/hiWm5IrFb9QLNMXzimdNWNUPJBlQQozH/h9OZK+1C4Nl8YzAhIMy3p/fb73H4DQfTbs5yV0YjllMbmc71kYkzaTC1ATMDgsq8e0sZt3WiYsduZYj0fYbjJZTtI+tt2QtAFp+zXhis0TwMDEZOVr10seGAyTSgw2XgbhVWUZT7BFuHkXJosZvzML3S3dzwpQIQs6m1zRjaAGQxHoGLP/LvprOKV3EupjVXwiIMkpWnO7OyZUw6mSx7H6j4rprljngRv1H0Qp"
+    ],
+    "tunnelProperties": {
+      "tunnelId": "amusing-mountain-rmk9djd",
+      "clusterId": "asse",
+      "domain": "app.github.dev",
+      "connectAccessToken": "<396:<redacted>>",
+      "managePortsAccessToken": "<402:<redacted>>",
+      "serviceUri": "https://global.rel.tunnels.api.visualstudio.com/"
+    }
+  },
+  "container_id": "38fe63d0704214510de123b80a69475a396418dd4d99bc1ccba8772d755e7da9",
+  "display_name": "turbo funicular",
+  "devcontainer_path": ".devcontainer/devcontainer.json",
+  "pending_operation": false,
+  "feature_flags": {
+    "developer": false,
+    "enableRemoteKernel": true,
+    "devTunnelsOptOut": false,
+    "devTunnelsDesktopPortForwarding": false,
+    "devTunnelsDesktopMainConnection": false,
+    "useBasisForMainConnectionsWebClient": false,
+    "disableBasisPortSyncWorker": true,
+    "detailedActivityMonitor": false,
+    "vscodeAccountSwitching": false,
+    "enableSmbDiagnosticContinuousMonitoring": false,
+    "enableSmbDiagnosticOnAnomalyMonitoring": false,
+    "useEarlyWorkbenchWebClient": false,
+    "useCoiWebClient": false,
+    "remapUserNamespace": false,
+    "removeConnectRetriesWebClient": true,
+    "storageV2ExhaustiveValidation": false,
+    "forcePushShutdownTelemetry": false,
+    "Basis": true,
+    "Skuheapscaling": true,
+    "CacheIde": true,
+    "Developer": false,
+    "Eap": false
+  },
+  "retention_period_minutes": 43200,
+  "retention_expires_at": null,
+  "template": {
+    "name": "<22:<redacted>>",
+    "language": "",
+    "description": null,
+    "author": "Progate",
+    "icon": null,
+    "icon_path": null,
+    "repository": {
+      "id": 587537775,
+      "node_id": "R_kgDOIwUdbw",
+      "name": "<22:<redacted>>",
+      "full_name": "Progate/path-study-environment",
+      "private": false,
+      "owner": "<undefined:<redacted>>",
+      "html_url": "https://github.com/Progate/path-study-environment",
+      "description": null,
+      "fork": false,
+      "url": "https://api.github.com/repos/Progate/path-study-environment",
+      "forks_url": "https://api.github.com/repos/Progate/path-study-environment/forks",
+      "keys_url": "https://api.github.com/repos/Progate/path-study-environment/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/Progate/path-study-environment/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/Progate/path-study-environment/teams",
+      "hooks_url": "https://api.github.com/repos/Progate/path-study-environment/hooks",
+      "issue_events_url": "https://api.github.com/repos/Progate/path-study-environment/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/Progate/path-study-environment/events",
+      "assignees_url": "https://api.github.com/repos/Progate/path-study-environment/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/Progate/path-study-environment/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/Progate/path-study-environment/tags",
+      "blobs_url": "https://api.github.com/repos/Progate/path-study-environment/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/Progate/path-study-environment/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/Progate/path-study-environment/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/Progate/path-study-environment/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/Progate/path-study-environment/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/Progate/path-study-environment/languages",
+      "stargazers_url": "https://api.github.com/repos/Progate/path-study-environment/stargazers",
+      "contributors_url": "https://api.github.com/repos/Progate/path-study-environment/contributors",
+      "subscribers_url": "https://api.github.com/repos/Progate/path-study-environment/subscribers",
+      "subscription_url": "https://api.github.com/repos/Progate/path-study-environment/subscription",
+      "commits_url": "https://api.github.com/repos/Progate/path-study-environment/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/Progate/path-study-environment/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/Progate/path-study-environment/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/Progate/path-study-environment/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/Progate/path-study-environment/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/Progate/path-study-environment/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/Progate/path-study-environment/merges",
+      "archive_url": "https://api.github.com/repos/Progate/path-study-environment/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/Progate/path-study-environment/downloads",
+      "issues_url": "https://api.github.com/repos/Progate/path-study-environment/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/Progate/path-study-environment/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/Progate/path-study-environment/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/Progate/path-study-environment/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/Progate/path-study-environment/labels{/name}",
+      "releases_url": "https://api.github.com/repos/Progate/path-study-environment/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/Progate/path-study-environment/deployments"
+    }
+  },
+  "publish_url": "https://api.github.com/user/codespaces/turbo-funicular-gj55jjv9rgq2r5/publish"
+}
+[RemoteExplorer I] Updating codespace performance info
+[Client:extension:feb1:resolver:resolve:1:check-codespace-state I] codespace turbo-funicular-gj55jjv9rgq2r5 (id: 413bc4de-3261-46e1-9739-4a50355a356e) is in the "Default" state
+[Client:extension:feb1:resolver:resolve:1:check-codespace-state I] noop
+[Client:extension:feb1:resolver I] Initializing RPC client
+[Client:extension:feb1:resolver I] Running in web, using unix socket for communication
+[Client:extension:feb1:resolver I] Initializing Node-based codespace host service client
+[Client:extension:feb1:resolver I] Initializing Node-based Jupyter server host service client
+[Client:extension:feb1:resolver I] Initializing Node-based VS Code server host service client
+[Client:extension:feb1:resolver:resolve:1:check-codespace-state I] vscode connection options: > object #0: {
+  "token": "<1118:<redacted>>",
+  "environmentId": "413bc4de-3261-46e1-9739-4a50355a356e",
+  "workspaceId": "46617513490E9C3332465A767B2DA9102321",
+  "vsCodeCommit": "8b3775030ed1a69b13e4f4c628c612102e30a681",
+  "vsCodeQuality": "stable",
+  "extensions": [
+    "GitHub.codespaces",
+    "GitHub.vscode-pull-request-github"
+  ],
+  "telemetry": true,
+  "liveShareEndpoint": "https://prod.liveshare.vsengsaas.visualstudio.com/api/v1.2/",
+  "connectionInfo": {
+    "id": "46617513490E9C3332465A767B2DA9102321",
+    "relaySas": "<255:<redacted>>",
+    "relayLink": "sb://vsls-prod-ins-asse-private-relay.servicebus.windows.net/569c937c1d96c089c22e4bcfb1cd3181ec24--5c8702a5-7c25-44ac-ad0c-684be1d00fb5",
+    "sessionToken": "<1118:<redacted>>",
+    "hostPublicKeys": [
+      "AAAAB3NzaC1yc2EAAAADAQABAAABAQDU9mjD3pnFowWJnk8Pgf/35mZqbtiKFHJjXUuiYhcQ6sFEfZ2QzVBk6dsB9PvM74Q5qktnciwrm/xv/hiWm5IrFb9QLNMXzimdNWNUPJBlQQozH/h9OZK+1C4Nl8YzAhIMy3p/fb73H4DQfTbs5yV0YjllMbmc71kYkzaTC1ATMDgsq8e0sZt3WiYsduZYj0fYbjJZTtI+tt2QtAFp+zXhis0TwMDEZOVr10seGAyTSgw2XgbhVWUZT7BFuHkXJosZvzML3S3dzwpQIQs6m1zRjaAGQxHoGLP/LvprOKV3EupjVXwiIMkpWnO7OyZUw6mSx7H6j4rprljngRv1H0Qp"
+    ],
+    "tunnelProperties": {
+      "tunnelId": "amusing-mountain-rmk9djd",
+      "clusterId": "asse",
+      "domain": "app.github.dev",
+      "connectAccessToken": "<396:<redacted>>",
+      "managePortsAccessToken": "<402:<redacted>>",
+      "serviceUri": "https://global.rel.tunnels.api.visualstudio.com/"
+    }
+  }
+}
+[RemoteExplorer I] Updating codespace details
+[Client:extension:feb1:resolver:resolve:1 I] requested to connect> object #0: {
+  "token": "<1118:<redacted>>",
+  "environmentId": "413bc4de-3261-46e1-9739-4a50355a356e",
+  "workspaceId": "46617513490E9C3332465A767B2DA9102321",
+  "vsCodeCommit": "8b3775030ed1a69b13e4f4c628c612102e30a681",
+  "vsCodeQuality": "stable",
+  "extensions": [
+    "GitHub.codespaces",
+    "GitHub.vscode-pull-request-github"
+  ],
+  "telemetry": true,
+  "liveShareEndpoint": "https://prod.liveshare.vsengsaas.visualstudio.com/api/v1.2/",
+  "connectionInfo": {
+    "id": "46617513490E9C3332465A767B2DA9102321",
+    "relaySas": "<255:<redacted>>",
+    "relayLink": "sb://vsls-prod-ins-asse-private-relay.servicebus.windows.net/569c937c1d96c089c22e4bcfb1cd3181ec24--5c8702a5-7c25-44ac-ad0c-684be1d00fb5",
+    "sessionToken": "<1118:<redacted>>",
+    "hostPublicKeys": [
+      "AAAAB3NzaC1yc2EAAAADAQABAAABAQDU9mjD3pnFowWJnk8Pgf/35mZqbtiKFHJjXUuiYhcQ6sFEfZ2QzVBk6dsB9PvM74Q5qktnciwrm/xv/hiWm5IrFb9QLNMXzimdNWNUPJBlQQozH/h9OZK+1C4Nl8YzAhIMy3p/fb73H4DQfTbs5yV0YjllMbmc71kYkzaTC1ATMDgsq8e0sZt3WiYsduZYj0fYbjJZTtI+tt2QtAFp+zXhis0TwMDEZOVr10seGAyTSgw2XgbhVWUZT7BFuHkXJosZvzML3S3dzwpQIQs6m1zRjaAGQxHoGLP/LvprOKV3EupjVXwiIMkpWnO7OyZUw6mSx7H6j4rprljngRv1H0Qp"
+    ],
+    "tunnelProperties": {
+      "tunnelId": "amusing-mountain-rmk9djd",
+      "clusterId": "asse",
+      "domain": "app.github.dev",
+      "connectAccessToken": "<396:<redacted>>",
+      "managePortsAccessToken": "<402:<redacted>>",
+      "serviceUri": "https://global.rel.tunnels.api.visualstudio.com/"
+    }
+  },
+  "clientId": "7c35dcccd80338b8"
+}
+> object #1: [object Object]
+[Client:extension:feb1:resolver:resolve:1:46617513490E9C3332465A767B2DA9102321_413bc4de-3261-46e1-9739-4a50355a356e_stable_8b3775030ed1a69b13e4f4c628c612102e30a681 I] connection record: false
+[Client:extension:feb1:resolver:resolve:1:46617513490E9C3332465A767B2DA9102321_413bc4de-3261-46e1-9739-4a50355a356e_stable_8b3775030ed1a69b13e4f4c628c612102e30a681 I] creating new connection
+[Client:extension:feb1:vscode V] creating connection without a timeout
+[Client:extension:feb1:vscode I] creating connection> object #0: [object Object]
+[Client:extension:feb1:resolver:resolve:1:connection:46617513490E9C3332465A767B2DA9102321_413bc4de-3261-46e1-9739-4a50355a356e_stable_8b3775030ed1a69b13e4f4c628c612102e30a681:vscode V] subscribing to onDispose event
+[Client:extension:feb1:resolver:resolve:1:connection:46617513490E9C3332465A767B2DA9102321_413bc4de-3261-46e1-9739-4a50355a356e_stable_8b3775030ed1a69b13e4f4c628c612102e30a681:vscode I] asked to connect
+[Client:extension:feb1:resolver:resolve:1:connection:46617513490E9C3332465A767B2DA9102321_413bc4de-3261-46e1-9739-4a50355a356e_stable_8b3775030ed1a69b13e4f4c628c612102e30a681:vscode I] creating new connection
+[Client:extension:feb1:resolver:resolve:1:connection:46617513490E9C3332465A767B2DA9102321_413bc4de-3261-46e1-9739-4a50355a356e_stable_8b3775030ed1a69b13e4f4c628c612102e30a681:vscode I] creating connection
+[Client:extension:feb1:resolver:resolve:1:connection:46617513490E9C3332465A767B2DA9102321_413bc4de-3261-46e1-9739-4a50355a356e_stable_8b3775030ed1a69b13e4f4c628c612102e30a681:vscode I] connection status changed: none -> connecting, error:> object #0: undefined
+[Client:extension:feb1:resolver:resolve:1:connection:46617513490E9C3332465A767B2DA9102321_413bc4de-3261-46e1-9739-4a50355a356e_stable_8b3775030ed1a69b13e4f4c628c612102e30a681:vscode I] firing change event: > object #0: {
+  "status": "connecting",
+  "previousStatus": "none"
+}
+[Client:extension:feb1:vscode:onConnectionChanged:46617513490E9C3332465A767B2DA9102321_413bc4de-3261-46e1-9739-4a50355a356e_stable_8b3775030ed1a69b13e4f4c628c612102e30a681 I] none -> connecting
+[Client:extension:feb1:resolver:resolve:1:connection:46617513490E9C3332465A767B2DA9102321_413bc4de-3261-46e1-9739-4a50355a356e_stable_8b3775030ed1a69b13e4f4c628c612102e30a681:vscode I] get LS connection
+[Client:extension:feb1:liveshare-joint I] requested to connect once> object #0: {
+  "token": "<1118:<redacted>>",
+  "environmentId": "413bc4de-3261-46e1-9739-4a50355a356e",
+  "workspaceId": "46617513490E9C3332465A767B2DA9102321",
+  "vsCodeCommit": "8b3775030ed1a69b13e4f4c628c612102e30a681",
+  "vsCodeQuality": "stable",
+  "extensions": [
+    "GitHub.codespaces",
+    "GitHub.vscode-pull-request-github"
+  ],
+  "telemetry": true,
+  "liveShareEndpoint": "https://prod.liveshare.vsengsaas.visualstudio.com/api/v1.2/",
+  "connectionInfo": {
+    "id": "46617513490E9C3332465A767B2DA9102321",
+    "relaySas": "<255:<redacted>>",
+    "relayLink": "sb://vsls-prod-ins-asse-private-relay.servicebus.windows.net/569c937c1d96c089c22e4bcfb1cd3181ec24--5c8702a5-7c25-44ac-ad0c-684be1d00fb5",
+    "sessionToken": "<1118:<redacted>>",
+    "hostPublicKeys": [
+      "AAAAB3NzaC1yc2EAAAADAQABAAABAQDU9mjD3pnFowWJnk8Pgf/35mZqbtiKFHJjXUuiYhcQ6sFEfZ2QzVBk6dsB9PvM74Q5qktnciwrm/xv/hiWm5IrFb9QLNMXzimdNWNUPJBlQQozH/h9OZK+1C4Nl8YzAhIMy3p/fb73H4DQfTbs5yV0YjllMbmc71kYkzaTC1ATMDgsq8e0sZt3WiYsduZYj0fYbjJZTtI+tt2QtAFp+zXhis0TwMDEZOVr10seGAyTSgw2XgbhVWUZT7BFuHkXJosZvzML3S3dzwpQIQs6m1zRjaAGQxHoGLP/LvprOKV3EupjVXwiIMkpWnO7OyZUw6mSx7H6j4rprljngRv1H0Qp"
+    ],
+    "tunnelProperties": {
+      "tunnelId": "amusing-mountain-rmk9djd",
+      "clusterId": "asse",
+      "domain": "app.github.dev",
+      "connectAccessToken": "<396:<redacted>>",
+      "managePortsAccessToken": "<402:<redacted>>",
+      "serviceUri": "https://global.rel.tunnels.api.visualstudio.com/"
+    }
+  },
+  "clientId": "7c35dcccd80338b8"
+}
+> object #1: [object Object]
+[Client:extension:feb1:liveshare-joint I] requested to connect> object #0: {
+  "token": "<1118:<redacted>>",
+  "environmentId": "413bc4de-3261-46e1-9739-4a50355a356e",
+  "workspaceId": "46617513490E9C3332465A767B2DA9102321",
+  "vsCodeCommit": "8b3775030ed1a69b13e4f4c628c612102e30a681",
+  "vsCodeQuality": "stable",
+  "extensions": [
+    "GitHub.codespaces",
+    "GitHub.vscode-pull-request-github"
+  ],
+  "telemetry": true,
+  "liveShareEndpoint": "https://prod.liveshare.vsengsaas.visualstudio.com/api/v1.2/",
+  "connectionInfo": {
+    "id": "46617513490E9C3332465A767B2DA9102321",
+    "relaySas": "<255:<redacted>>",
+    "relayLink": "sb://vsls-prod-ins-asse-private-relay.servicebus.windows.net/569c937c1d96c089c22e4bcfb1cd3181ec24--5c8702a5-7c25-44ac-ad0c-684be1d00fb5",
+    "sessionToken": "<1118:<redacted>>",
+    "hostPublicKeys": [
+      "AAAAB3NzaC1yc2EAAAADAQABAAABAQDU9mjD3pnFowWJnk8Pgf/35mZqbtiKFHJjXUuiYhcQ6sFEfZ2QzVBk6dsB9PvM74Q5qktnciwrm/xv/hiWm5IrFb9QLNMXzimdNWNUPJBlQQozH/h9OZK+1C4Nl8YzAhIMy3p/fb73H4DQfTbs5yV0YjllMbmc71kYkzaTC1ATMDgsq8e0sZt3WiYsduZYj0fYbjJZTtI+tt2QtAFp+zXhis0TwMDEZOVr10seGAyTSgw2XgbhVWUZT7BFuHkXJosZvzML3S3dzwpQIQs6m1zRjaAGQxHoGLP/LvprOKV3EupjVXwiIMkpWnO7OyZUw6mSx7H6j4rprljngRv1H0Qp"
+    ],
+    "tunnelProperties": {
+      "tunnelId": "amusing-mountain-rmk9djd",
+      "clusterId": "asse",
+      "domain": "app.github.dev",
+      "connectAccessToken": "<396:<redacted>>",
+      "managePortsAccessToken": "<402:<redacted>>",
+      "serviceUri": "https://global.rel.tunnels.api.visualstudio.com/"
+    }
+  },
+  "clientId": "7c35dcccd80338b8"
+}
+> object #1: [object Object]
+[Client:extension:feb1:liveshare-joint:46617513490E9C3332465A767B2DA9102321 I] connection record: false
+[Client:extension:feb1:liveshare-joint:46617513490E9C3332465A767B2DA9102321 I] creating new connection
+[Client:extension:feb1:liveshare-joint V] creating connection without a timeout
+[Client:extension:feb1:liveshare-joint I] creating connection> object #0: [object Object]
+[Client:extension:feb1:liveshare-joint:connection:46617513490E9C3332465A767B2DA9102321:liveshare-joint:liveshare V] subscribing to onDispose event
+[Client:extension:feb1:liveshare-joint:connection:46617513490E9C3332465A767B2DA9102321:liveshare-joint:liveshare I] asked to connect
+[Client:extension:feb1:liveshare-joint:connection:46617513490E9C3332465A767B2DA9102321:liveshare-joint:liveshare I] creating new connection
+[Client:extension:feb1:liveshare-joint:connection:46617513490E9C3332465A767B2DA9102321:liveshare-joint:liveshare I] creating connection
+[Client:extension:feb1:liveshare-joint:connection:46617513490E9C3332465A767B2DA9102321:liveshare-joint:liveshare I] connection status changed: none -> connecting, error:> object #0: undefined
+[Client:extension:feb1:liveshare-joint:connection:46617513490E9C3332465A767B2DA9102321:liveshare-joint:liveshare I] firing change event: > object #0: {
+  "status": "connecting",
+  "previousStatus": "none"
+}
+[Client:extension:feb1:liveshare-joint:onConnectionChanged:46617513490E9C3332465A767B2DA9102321 I] none -> connecting
+[Client:extension:feb1:liveshare I] requested to connect once> object #0: {
+  "token": "<1118:<redacted>>",
+  "environmentId": "413bc4de-3261-46e1-9739-4a50355a356e",
+  "workspaceId": "46617513490E9C3332465A767B2DA9102321",
+  "vsCodeCommit": "8b3775030ed1a69b13e4f4c628c612102e30a681",
+  "vsCodeQuality": "stable",
+  "extensions": [
+    "GitHub.codespaces",
+    "GitHub.vscode-pull-request-github"
+  ],
+  "telemetry": true,
+  "liveShareEndpoint": "https://prod.liveshare.vsengsaas.visualstudio.com/api/v1.2/",
+  "connectionInfo": {
+    "id": "46617513490E9C3332465A767B2DA9102321",
+    "relaySas": "<255:<redacted>>",
+    "relayLink": "sb://vsls-prod-ins-asse-private-relay.servicebus.windows.net/569c937c1d96c089c22e4bcfb1cd3181ec24--5c8702a5-7c25-44ac-ad0c-684be1d00fb5",
+    "sessionToken": "<1118:<redacted>>",
+    "hostPublicKeys": [
+      "AAAAB3NzaC1yc2EAAAADAQABAAABAQDU9mjD3pnFowWJnk8Pgf/35mZqbtiKFHJjXUuiYhcQ6sFEfZ2QzVBk6dsB9PvM74Q5qktnciwrm/xv/hiWm5IrFb9QLNMXzimdNWNUPJBlQQozH/h9OZK+1C4Nl8YzAhIMy3p/fb73H4DQfTbs5yV0YjllMbmc71kYkzaTC1ATMDgsq8e0sZt3WiYsduZYj0fYbjJZTtI+tt2QtAFp+zXhis0TwMDEZOVr10seGAyTSgw2XgbhVWUZT7BFuHkXJosZvzML3S3dzwpQIQs6m1zRjaAGQxHoGLP/LvprOKV3EupjVXwiIMkpWnO7OyZUw6mSx7H6j4rprljngRv1H0Qp"
+    ],
+    "tunnelProperties": {
+      "tunnelId": "amusing-mountain-rmk9djd",
+      "clusterId": "asse",
+      "domain": "app.github.dev",
+      "connectAccessToken": "<396:<redacted>>",
+      "managePortsAccessToken": "<402:<redacted>>",
+      "serviceUri": "https://global.rel.tunnels.api.visualstudio.com/"
+    }
+  },
+  "clientId": "7c35dcccd80338b8"
+}
+> object #1: [object Object]
+[Client:extension:feb1:liveshare I] requested to connect> object #0: {
+  "token": "<1118:<redacted>>",
+  "environmentId": "413bc4de-3261-46e1-9739-4a50355a356e",
+  "workspaceId": "46617513490E9C3332465A767B2DA9102321",
+  "vsCodeCommit": "8b3775030ed1a69b13e4f4c628c612102e30a681",
+  "vsCodeQuality": "stable",
+  "extensions": [
+    "GitHub.codespaces",
+    "GitHub.vscode-pull-request-github"
+  ],
+  "telemetry": true,
+  "liveShareEndpoint": "https://prod.liveshare.vsengsaas.visualstudio.com/api/v1.2/",
+  "connectionInfo": {
+    "id": "46617513490E9C3332465A767B2DA9102321",
+    "relaySas": "<255:<redacted>>",
+    "relayLink": "sb://vsls-prod-ins-asse-private-relay.servicebus.windows.net/569c937c1d96c089c22e4bcfb1cd3181ec24--5c8702a5-7c25-44ac-ad0c-684be1d00fb5",
+    "sessionToken": "<1118:<redacted>>",
+    "hostPublicKeys": [
+      "AAAAB3NzaC1yc2EAAAADAQABAAABAQDU9mjD3pnFowWJnk8Pgf/35mZqbtiKFHJjXUuiYhcQ6sFEfZ2QzVBk6dsB9PvM74Q5qktnciwrm/xv/hiWm5IrFb9QLNMXzimdNWNUPJBlQQozH/h9OZK+1C4Nl8YzAhIMy3p/fb73H4DQfTbs5yV0YjllMbmc71kYkzaTC1ATMDgsq8e0sZt3WiYsduZYj0fYbjJZTtI+tt2QtAFp+zXhis0TwMDEZOVr10seGAyTSgw2XgbhVWUZT7BFuHkXJosZvzML3S3dzwpQIQs6m1zRjaAGQxHoGLP/LvprOKV3EupjVXwiIMkpWnO7OyZUw6mSx7H6j4rprljngRv1H0Qp"
+    ],
+    "tunnelProperties": {
+      "tunnelId": "amusing-mountain-rmk9djd",
+      "clusterId": "asse",
+      "domain": "app.github.dev",
+      "connectAccessToken": "<396:<redacted>>",
+      "managePortsAccessToken": "<402:<redacted>>",
+      "serviceUri": "https://global.rel.tunnels.api.visualstudio.com/"
+    }
+  },
+  "clientId": "7c35dcccd80338b8"
+}
+> object #1: [object Object]
+[Client:extension:feb1:liveshare:46617513490E9C3332465A767B2DA9102321 I] connection record: false
+[Client:extension:feb1:liveshare:46617513490E9C3332465A767B2DA9102321 I] creating new connection
+[Client:extension:feb1:liveshare V] creating connection without a timeout
+[Client:extension:feb1:liveshare I] creating connection> object #0: [object Object]
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare V] subscribing to onDispose event
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare I] asked to connect
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare I] creating new connection
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare I] creating connection
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare I] connection status changed: none -> connecting, error:> object #0: undefined
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare I] firing change event: > object #0: {
+  "status": "connecting",
+  "previousStatus": "none"
+}
+[Client:extension:feb1:liveshare:onConnectionChanged:46617513490E9C3332465A767B2DA9102321 I] none -> connecting
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare I] creating workspace client> object #0: {
+  "token": "<1118:<redacted>>",
+  "environmentId": "413bc4de-3261-46e1-9739-4a50355a356e",
+  "workspaceId": "46617513490E9C3332465A767B2DA9102321",
+  "vsCodeCommit": "8b3775030ed1a69b13e4f4c628c612102e30a681",
+  "vsCodeQuality": "stable",
+  "extensions": [
+    "GitHub.codespaces",
+    "GitHub.vscode-pull-request-github"
+  ],
+  "telemetry": true,
+  "liveShareEndpoint": "https://prod.liveshare.vsengsaas.visualstudio.com/api/v1.2/",
+  "connectionInfo": {
+    "id": "46617513490E9C3332465A767B2DA9102321",
+    "relaySas": "<255:<redacted>>",
+    "relayLink": "sb://vsls-prod-ins-asse-private-relay.servicebus.windows.net/569c937c1d96c089c22e4bcfb1cd3181ec24--5c8702a5-7c25-44ac-ad0c-684be1d00fb5",
+    "sessionToken": "<1118:<redacted>>",
+    "hostPublicKeys": [
+      "AAAAB3NzaC1yc2EAAAADAQABAAABAQDU9mjD3pnFowWJnk8Pgf/35mZqbtiKFHJjXUuiYhcQ6sFEfZ2QzVBk6dsB9PvM74Q5qktnciwrm/xv/hiWm5IrFb9QLNMXzimdNWNUPJBlQQozH/h9OZK+1C4Nl8YzAhIMy3p/fb73H4DQfTbs5yV0YjllMbmc71kYkzaTC1ATMDgsq8e0sZt3WiYsduZYj0fYbjJZTtI+tt2QtAFp+zXhis0TwMDEZOVr10seGAyTSgw2XgbhVWUZT7BFuHkXJosZvzML3S3dzwpQIQs6m1zRjaAGQxHoGLP/LvprOKV3EupjVXwiIMkpWnO7OyZUw6mSx7H6j4rprljngRv1H0Qp"
+    ],
+    "tunnelProperties": {
+      "tunnelId": "amusing-mountain-rmk9djd",
+      "clusterId": "asse",
+      "domain": "app.github.dev",
+      "connectAccessToken": "<396:<redacted>>",
+      "managePortsAccessToken": "<402:<redacted>>",
+      "serviceUri": "https://global.rel.tunnels.api.visualstudio.com/"
+    }
+  },
+  "clientId": "7c35dcccd80338b8"
+}
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] connecting to relay link:sb://vsls-prod-ins-asse-private-relay.servicebus.windows.net/569c937c1d96c089c22e4bcfb1cd3181ec24--5c8702a5-7c25-44ac-ad0c-684be1d00fb5
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] creating node SSH...
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] authenticating...
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient I] SshClientSession connecting...
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] Sending #0 KeyExchangeInitMessage
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient I] Local version: SSH-2.0-dev-tunnels-ssh_3.11.36, remote version: SSH-2.0-Microsoft.VisualStudio.Ssh_3.4
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] Receiving #0 KeyExchangeInitMessage
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient I] KeyExchange negotiation: Server (ecdh-sha2-nistp384, ecdh-sha2-nistp256, diffie-hellman-group16-sha512, diffie-hellman-group14-sha256, ext-info-s) Client (ecdh-sha2-nistp384, ecdh-sha2-nistp256, diffie-hellman-group14-sha256) => ecdh-sha2-nistp384
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient I] PublicKey negotiation: Server (rsa-sha2-512, rsa-sha2-256) Client (rsa-sha2-512, rsa-sha2-256, ecdsa-sha2-nistp384, ecdsa-sha2-nistp256) => rsa-sha2-512
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient I] ClientEncryption negotiation: Server (aes256-gcm@openssh.com, aes256-cbc, aes256-ctr) Client (aes256-gcm@openssh.com, aes256-ctr) => aes256-gcm@openssh.com
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient I] ServerEncryption negotiation: Server (aes256-gcm@openssh.com, aes256-cbc, aes256-ctr) Client (aes256-gcm@openssh.com, aes256-ctr) => aes256-gcm@openssh.com
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient I] ClientHmac negotiation: Server (hmac-sha2-512-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512, hmac-sha2-256) Client (hmac-sha2-512-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512, hmac-sha2-256) => hmac-sha2-512-etm@openssh.com
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient I] ServerHmac negotiation: Server (hmac-sha2-512-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512, hmac-sha2-256) Client (hmac-sha2-512-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512, hmac-sha2-256) => hmac-sha2-512-etm@openssh.com
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient I] ClientCompression negotiation: Server (none) Client (none) => none
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient I] ServerCompression negotiation: Server (none) Client (none) => none
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] Sending #1 KeyExchangeDhInitMessage
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] Receiving #1 KeyExchangeDhReplyMessage
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] Server public key verification succeeded.
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] Sending #2 NewKeysMessage
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] Receiving #2 NewKeysMessage
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] Sending #3 ExtensionInfoMessage (server-sig-algs=rsa-sha2-512,rsa-sha2-256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp256; open-channel-request@microsoft.com; session-reconnect@microsoft.com; session-latency@microsoft.com)
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient I] SshClientSession encrypted.
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient I] SshClientSession Authenticating([ssh-rsa])
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient I] SshClientSession server authenticated.
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] Sending #4 ServiceRequestMessage
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] Sending #5 PasswordRequestMessage (Method: password, Username: )
+[perf V] name:Creating the ssh workspace session duration:121.72389299998758
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient:SshWorkspaceSession V] subscribing to onDispose event
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient I] join started
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] Sending #6 ChannelOpenMessage(channelType=session, senderChannel=1)
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] Sending #7 SessionChannelRequestMessage (requestType=initial-channel-request@microsoft.com)
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] Receiving #3 ExtensionInfoMessage (open-channel-request@microsoft.com; server-sig-algs=rsa-sha2-512,rsa-sha2-256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp256; session-latency@microsoft.com; session-reconnect@microsoft.com)
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] Sending #8 SessionRequestMessage (requestType=enable-session-reconnect@microsoft.com)
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] Receiving #4 SessionRequestMessage (requestType=enable-session-reconnect@microsoft.com)
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] Receiving #5 ServiceAcceptMessage
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] Receiving #6 AuthenticationSuccessMessage
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient I] SshClientSession client authenticated.
+[perf V] name:Ssh auth completion duration:674.6623160000308
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] Receiving #7 ChannelOpenConfirmationMessage (recipientChannel=1)(senderChannel=0)
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] Receiving #8 SessionRequestSuccessMessage
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] < version.exchangeVersions()
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] > version.exchangeVersions() succeeded t:6.0
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient I] Host version: {"version":"1.0.5571.49914","protocolVersion":"2.2","platformName":"Linux 6.2.0","platformVersion":"6.2.0.1019"}
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] < workspace.joinWorkspace()
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] > workspace.joinWorkspace() succeeded t:17.0
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient I] joinWorkspace -> session:5 conversation:5c8702a5-7c25-44ac-ad0c-684be1d00fb5 join messages count:2
+[perf V] name:Joining the workspace duration:706.6837789999554
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient I] join completed
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient:1 I] Start checking connection timeout:5000
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] subscribing to onDispose event
+[perf V] name:join LiveShare session duration:831.2032899999758
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare V] setWorkspaceSessionInfo> object #0: {
+  "sessionNumber": 5,
+  "conversationId": "5c8702a5-7c25-44ac-ad0c-684be1d00fb5",
+  "connectionMode": "local",
+  "sessions": {
+    "1": {
+      "id": "vm_539376fe-9e57-46f5-8712-cab144116f72",
+      "email": "<null>",
+      "userName": "<null>",
+      "provider": "vscs",
+      "avatarUri": "",
+      "isOwner": true,
+      "isHost": true,
+      "clientCapabilities": {
+        "extensionReadOnlySupport": true,
+        "clientReadOnlySupport": true,
+        "emptyWorkspaceOpenFolderSupport": true,
+        "persistentRootSupport": true
+      }
+    },
+    "2": {
+      "id": "398a6654-997b-47e9-b12b-9515b896b4de_108732694",
+      "name": "<6:<redacted>>",
+      "email": "<redacted>",
+      "userName": "<6:<redacted>>",
+      "provider": "github",
+      "avatarUri": "",
+      "isOwner": true,
+      "clientCapabilities": {}
+    },
+    "4": {
+      "id": "398a6654-997b-47e9-b12b-9515b896b4de_108732694",
+      "name": "<6:<redacted>>",
+      "email": "<redacted>",
+      "userName": "<6:<redacted>>",
+      "provider": "github",
+      "avatarUri": "",
+      "isOwner": true,
+      "clientCapabilities": {}
+    },
+    "5": {
+      "id": "398a6654-997b-47e9-b12b-9515b896b4de_108732694",
+      "name": "<6:<redacted>>",
+      "email": "<redacted>",
+      "userName": "<6:<redacted>>",
+      "provider": "github",
+      "avatarUri": "",
+      "isOwner": true,
+      "clientCapabilities": {}
+    }
+  },
+  "accessControl": {
+    "defaultAccessControl": {},
+    "userAccessControl": {}
+  },
+  "isPresentation": false,
+  "allowPortForwardingExternalConnections": false,
+  "rootFullPaths": [
+    "/~0"
+  ],
+  "serviceNames": null,
+  "id": "569C937C1D96C089C22E4BCFB1CD3181EC24",
+  "name": "<9:<redacted>>",
+  "joinUri": "https://prod.liveshare.vsengsaas.visualstudio.com/join?569C937C1D96C089C22E4BCFB1CD3181EC24",
+  "ownerId": "398a6654-997b-47e9-b12b-9515b896b4de_108732694",
+  "expiresAt": "2024-03-22T10:06:14.063039Z"
+}
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare I] ownerId: "398a6654-997b-47e9-b12b-9515b896b4de_108732694"
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare I] LS session joined and authenticated
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient I] Creating proxy for workspace service
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare I] connection status changed: connecting -> connected, error:> object #0: undefined
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare I] firing change event: > object #0: {
+  "status": "connected",
+  "previousStatus": "connecting"
+}
+[Client:extension:feb1:liveshare:onConnectionChanged:46617513490E9C3332465A767B2DA9102321 I] connecting -> connected
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare I] 🔌 connected
+[Client:extension:feb1:liveshare:connection-record V] subscribing to onDispose event
+[Client:extension:feb1:liveshare-joint:connection:46617513490E9C3332465A767B2DA9102321:liveshare-joint:liveshare V] subscribing to onDispose event
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare V] subscribing to onDispose event
+[Client:extension:feb1:liveshare-joint:connection:46617513490E9C3332465A767B2DA9102321:liveshare-joint:liveshare I] connection status changed: connecting -> connected, error:> object #0: undefined
+[Client:extension:feb1:liveshare-joint:connection:46617513490E9C3332465A767B2DA9102321:liveshare-joint:liveshare I] firing change event: > object #0: {
+  "status": "connected",
+  "previousStatus": "connecting"
+}
+[Client:extension:feb1:liveshare-joint:onConnectionChanged:46617513490E9C3332465A767B2DA9102321 I] connecting -> connected
+[Client:extension:feb1:liveshare-joint:connection:46617513490E9C3332465A767B2DA9102321:liveshare-joint:liveshare I] 🔌 connected
+[Client:extension:feb1:liveshare-joint:connection-record V] subscribing to onDispose event
+[Client:extension:feb1:resolver:resolve:1:connection:46617513490E9C3332465A767B2DA9102321_413bc4de-3261-46e1-9739-4a50355a356e_stable_8b3775030ed1a69b13e4f4c628c612102e30a681:vscode V] subscribing to onDispose event
+[Client:extension:feb1:liveshare-joint:connection:46617513490E9C3332465A767B2DA9102321:liveshare-joint:liveshare V] subscribing to onDispose event
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient I] Creating proxy for serverSharing service
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient I] Creating proxy for IVSCodeServerHostService service
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient I] Creating proxy for ICodespaceHostService service
+[Client:extension:feb1:resolver:resolve:1:connection:46617513490E9C3332465A767B2DA9102321_413bc4de-3261-46e1-9739-4a50355a356e_stable_8b3775030ed1a69b13e4f4c628c612102e30a681:vscode I] starting vscode server..> object #0: {
+  "token": "<1118:<redacted>>",
+  "environmentId": "413bc4de-3261-46e1-9739-4a50355a356e",
+  "workspaceId": "46617513490E9C3332465A767B2DA9102321",
+  "vsCodeCommit": "8b3775030ed1a69b13e4f4c628c612102e30a681",
+  "vsCodeQuality": "stable",
+  "extensions": [
+    "GitHub.codespaces",
+    "GitHub.vscode-pull-request-github"
+  ],
+  "telemetry": true,
+  "liveShareEndpoint": "https://prod.liveshare.vsengsaas.visualstudio.com/api/v1.2/",
+  "connectionInfo": {
+    "id": "46617513490E9C3332465A767B2DA9102321",
+    "relaySas": "<255:<redacted>>",
+    "relayLink": "sb://vsls-prod-ins-asse-private-relay.servicebus.windows.net/569c937c1d96c089c22e4bcfb1cd3181ec24--5c8702a5-7c25-44ac-ad0c-684be1d00fb5",
+    "sessionToken": "<1118:<redacted>>",
+    "hostPublicKeys": [
+      "AAAAB3NzaC1yc2EAAAADAQABAAABAQDU9mjD3pnFowWJnk8Pgf/35mZqbtiKFHJjXUuiYhcQ6sFEfZ2QzVBk6dsB9PvM74Q5qktnciwrm/xv/hiWm5IrFb9QLNMXzimdNWNUPJBlQQozH/h9OZK+1C4Nl8YzAhIMy3p/fb73H4DQfTbs5yV0YjllMbmc71kYkzaTC1ATMDgsq8e0sZt3WiYsduZYj0fYbjJZTtI+tt2QtAFp+zXhis0TwMDEZOVr10seGAyTSgw2XgbhVWUZT7BFuHkXJosZvzML3S3dzwpQIQs6m1zRjaAGQxHoGLP/LvprOKV3EupjVXwiIMkpWnO7OyZUw6mSx7H6j4rprljngRv1H0Qp"
+    ],
+    "tunnelProperties": {
+      "tunnelId": "amusing-mountain-rmk9djd",
+      "clusterId": "asse",
+      "domain": "app.github.dev",
+      "connectAccessToken": "<396:<redacted>>",
+      "managePortsAccessToken": "<402:<redacted>>",
+      "serviceUri": "https://global.rel.tunnels.api.visualstudio.com/"
+    }
+  },
+  "clientId": "7c35dcccd80338b8"
+}
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] > workspace.servicesChanged: 
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] > workspace.progressUpdated: 
+[Client:extension:feb1:resolver:resolve:1:connection:46617513490E9C3332465A767B2DA9102321_413bc4de-3261-46e1-9739-4a50355a356e_stable_8b3775030ed1a69b13e4f4c628c612102e30a681:vscode I] Executed start-remote-server using gRPC
+[Client:extension:feb1:resolver:resolve:1:connection:46617513490E9C3332465A767B2DA9102321_413bc4de-3261-46e1-9739-4a50355a356e_stable_8b3775030ed1a69b13e4f4c628c612102e30a681:vscode I] vscode started, forwarding the server port
+[Client:extension:feb1:resolver:resolve:1:connection:46617513490E9C3332465A767B2DA9102321_413bc4de-3261-46e1-9739-4a50355a356e_stable_8b3775030ed1a69b13e4f4c628c612102e30a681:vscode I] the server port forwarded, port number is 43337
+[Client:extension:feb1:resolver:resolve:1:connection:46617513490E9C3332465A767B2DA9102321_413bc4de-3261-46e1-9739-4a50355a356e_stable_8b3775030ed1a69b13e4f4c628c612102e30a681:vscode I] vscode server startup complete
+[perf V] name:start vscode server duration:612.7926279999665
+[Client:extension:feb1:resolver:resolve:1:connection:46617513490E9C3332465A767B2DA9102321_413bc4de-3261-46e1-9739-4a50355a356e_stable_8b3775030ed1a69b13e4f4c628c612102e30a681:vscode I] forwarding the VSCode Server port "43337".
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] < serverSharing.startSharing()
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] > serverSharing.sharingSucceeded: 
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] > serverSharing.startSharing() succeeded t:9.0
+[perf V] name:share vscode server TCP port duration:9.951919000013731
+[Client:extension:feb1:resolver:resolve:1:connection:46617513490E9C3332465A767B2DA9102321_413bc4de-3261-46e1-9739-4a50355a356e_stable_8b3775030ed1a69b13e4f4c628c612102e30a681:vscode I] VSCode Server port "43337" forwarded.
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient I] Creating proxy for streamManager service
+[Client:extension:feb1:resolver:resolve:1:connection:46617513490E9C3332465A767B2DA9102321_413bc4de-3261-46e1-9739-4a50355a356e_stable_8b3775030ed1a69b13e4f4c628c612102e30a681:vscode I] connection status changed: connecting -> connected, error:> object #0: undefined
+[Client:extension:feb1:resolver:resolve:1:connection:46617513490E9C3332465A767B2DA9102321_413bc4de-3261-46e1-9739-4a50355a356e_stable_8b3775030ed1a69b13e4f4c628c612102e30a681:vscode I] firing change event: > object #0: {
+  "status": "connected",
+  "previousStatus": "connecting"
+}
+[Client:extension:feb1:vscode:onConnectionChanged:46617513490E9C3332465A767B2DA9102321_413bc4de-3261-46e1-9739-4a50355a356e_stable_8b3775030ed1a69b13e4f4c628c612102e30a681 I] connecting -> connected
+[Client:extension:feb1:resolver:resolve:1:connection:46617513490E9C3332465A767B2DA9102321_413bc4de-3261-46e1-9739-4a50355a356e_stable_8b3775030ed1a69b13e4f4c628c612102e30a681:vscode I] 🔌 connected
+[Client:extension:feb1:vscode:connection-record V] subscribing to onDispose event
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] < streamManager.getStream()
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] < streamManager.getStream()
+[Client:extension:feb1:resolver:resolve:1:connection:46617513490E9C3332465A767B2DA9102321_413bc4de-3261-46e1-9739-4a50355a356e_stable_8b3775030ed1a69b13e4f4c628c612102e30a681:vscode V] subscribing to onDispose event
+[Client:extension:feb1:resolver:port-forwarder:tunnel-manager V] tunneling the connection> object #0: [object Object]
+[Client:extension:feb1:resolver:port-forwarder:tunnel-manager V] Tunneling vscode server port> object #0: false
+[Client:extension:feb1:resolver:resolve:1:connection:46617513490E9C3332465A767B2DA9102321_413bc4de-3261-46e1-9739-4a50355a356e_stable_8b3775030ed1a69b13e4f4c628c612102e30a681:vscode V] subscribing to onDispose event
+[Client:extension:feb1:resolver:port-forwarder:tunnel-manager V] reviving tunnels
+[Client:extension:feb1:resolver:port-forwarder:tunnel-manager V] reviving tunnels
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] < serverSharing.getSharedServers()
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] > streamManager.getStream() succeeded t:10.0
+[perf V] name:get stream Id duration:12.783954999991693
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient I] openStreamingChannel -> streamId:ServerSharing_8
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] Sending #15 ChannelOpenMessage(channelType=session, senderChannel=2)
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] > serverSharing.getSharedServers() succeeded t:9.0
+[Client:extension:feb1:resolver:resolve:1:connection:46617513490E9C3332465A767B2DA9102321_413bc4de-3261-46e1-9739-4a50355a356e_stable_8b3775030ed1a69b13e4f4c628c612102e30a681:vscode V] got shared servers list> object #0: [
+  "CodespacesInternal:16634:private:true:false",
+  "CodespacesInternal_web:16635:private:true:false",
+  "Port: 3000:3000:private:false:false",
+  "Port: 8000:8000:private:false:false",
+  "VSCodeServerInternal:43337:private:true:false"
+]
+[Client:extension:feb1:resolver:port-forwarder:tunnel-manager I] skipping Codespaces internal tunnel> object #0: #16634
+[Client:extension:feb1:resolver:port-forwarder:tunnel-manager I] skipping Codespaces internal tunnel> object #0: #16635
+[Client:extension:feb1:resolver:port-forwarder:tunnel-manager I] skipping vscode server tunnel> object #0: #43337
+[Client:extension:feb1:resolver:port-forwarder:tunnel-manager V] tunnels revived
+[Client:extension:feb1:resolver:port-forwarder:tunnel-manager V] init server sharing event listeners
+[Client:extension:feb1:resolver:resolve:1 I] vscode server remote port: "43337", local port: "undefined"}
+[Client V] connect duration: 3358 ms
+[BrowserConnectorService V] Initializing BrowserConnectorService using connection> object #0: [object Object]
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient I] Creating proxy for sourceEvent service
+[BrowserConnectorService V] BrowserConnectorService.sendMessage: {"initialized":true,"message":"codespaces:browser-connector-service-initialized","payload":"<probably pii>"}
+[Client:extension:feb1:resolver:resolve:1 I] Progress: Done
+[Client:extension:feb1:resolver I] Subscribed to event stream
+[Client:extension:feb1:resolver:resolve:1:background-tasks I] launching background configuration tasks
+[Client:extension:feb1:resolver:resolve:1:background-tasks:post-attach-command-manager I] PostAttachCommandManager: addEnvironmentConfiguredEventCallback()
+[Client:extension:feb1:resolver:resolve:1:background-tasks:post-attach-command-manager V] subscribing to onDispose event
+[Client:extension:feb1:resolver:resolve:1:background-tasks I] no max idle timeout notice
+[Client:extension:feb1:resolver:resolve:1:background-tasks V] checking correctness of the codespace session path> object #0: [
+  {
+    "uri": {
+      "$mid": 1,
+      "fsPath": "/home/vscode/progate_path/self_introduction_pull_request/self_introduction",
+      "external": "file:///home/vscode/progate_path/self_introduction_pull_request/self_introduction",
+      "path": "/home/vscode/progate_path/self_introduction_pull_request/self_introduction",
+      "scheme": "file"
+    },
+    "name": "<17:<redacted>>",
+    "index": 0
+  }
+]
+[Client:extension:feb1:resolver:resolve:1:background-tasks I] session path correction - progressType: "0"
+[Client:extension:feb1:resolver:resolve:1:background-tasks I] starting activity monitor, isRunningInWeb: "true"
+[Client:extension:feb1:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] isRunningInWeb: true
+[Client:extension:feb1:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] starting activity monitor
+[Client:extension:feb1:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider V] sending activity heartbeat
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient I] Creating proxy for IEnvironmentConfigurationService service
+[Client:extension:feb1:resolver:resolve:1:background-tasks:openDefaultFiles I] Skipping openFiles because it's not the first activation
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] < sourceEvent.fireEvent()
+[Client:extension:feb1:resolver:port-forwarder:tunnel-manager I] asking vscode to open the tunnel> object #0: #3000
+> object #1: "127.0.0.1"
+[Client:extension:feb1:resolver:port-forwarder:tunnel-manager I] asking vscode to open the tunnel> object #0: #8000
+> object #1: "127.0.0.1"
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] Receiving #18 ChannelOpenConfirmationMessage (recipientChannel=2)(senderChannel=1)
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] Sending #17 ChannelRequestMessage (recipientChannel=1)
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] > streamManager.getStream() succeeded t:74.0
+[perf V] name:get stream Id duration:76.5897400000249
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient I] openStreamingChannel -> streamId:ServerSharing_9
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] Sending #18 ChannelOpenMessage(channelType=session, senderChannel=3)
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] > sourceEvent.event: 
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] > sourceEvent.fireEvent() succeeded t:35.0
+[Performance I] Executed get-container-persisted-folder using gRPC
+[ResourceUsage I] Executed get-container-persisted-folder using gRPC
+[ResourceUsage V] container folder path: "/workspaces/.codespaces/.persistedshare"
+[ResourceUsage V] shared folder path: "/workspaces/.codespaces/shared/resource-usage.json"
+[ResourceUsage V] shared file path: "/workspaces/.codespaces/shared/resource-usage.json"
+[ResourceUsage I] Starting monitor
+[ResourceUsage I] Checking if the codespace connection exists
+[Client:extension:feb1:resolver:resolve:1:background-tasks I] Executed get-container-persisted-folder using gRPC
+[Client:extension:feb1:resolver:resolve:1:background-tasks V] container folder path: "/workspaces/.codespaces/.persistedshare"
+[Client:extension:feb1:resolver:resolve:1:background-tasks V] shared folder path: "/workspaces/.codespaces/shared/postCreateOutput.json"
+[Client:extension:feb1:resolver:resolve:1:background-tasks V] shared file path: "/workspaces/.codespaces/shared/postCreateOutput.json"
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] Receiving #20 ChannelOpenConfirmationMessage (recipientChannel=3)(senderChannel=2)
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] Sending #19 ChannelRequestMessage (recipientChannel=2)
+[Client:extension:feb1:resolver I] Received event: Subscribed
+[Client:extension:feb1:resolver I] Client 56ae856d-7fe6-43a2-bc1e-18f849313707 subscribed to event stream
+[Client:extension:feb1:resolver I] Received event: EnvironmentConfigured
+[Client:extension:feb1:resolver:resolve:1:background-tasks:post-attach-command-manager I] PostAttachCommandManager: handleEnvironmentConfiguredEvent()
+[Client:extension:feb1:resolver:resolve:1:background-tasks I] GetRemotePid: Echoing $PPID to /tmp/codespace_pids/.pid-d2ef19ba-16ed-4ab7-a666-52a5e534d4ca...
+[Client:extension:feb1:resolver:resolve:1:background-tasks I] GetRemotePid: Start polling for existance of PID file at file:///tmp/codespace_pids/.pid-d2ef19ba-16ed-4ab7-a666-52a5e534d4ca took 1 ms...
+[Client:extension:feb1:resolver:resolve:1:background-tasks I] Executed is-recovery-container using gRPC
+[Client:extension:feb1:resolver:resolve:1:background-tasks V] not in recovery container
+[Client:extension:feb1:resolver:resolve:1:background-tasks I] Executed configure-environment using gRPC
+[Client:extension:feb1:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Executed notify-codespace-of-client-activity using gRPC
+[Client:extension:feb1:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Activity signal sent with result true
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] > sourceEvent.event: 
+[Client:extension:feb1:resolver:port-forwarder:tunnel-manager I] vscode to open the tunnel completed> object #0: #3000
+> object #1: "127.0.0.1"
+[Client:extension:feb1:resolver:port-forwarder:tunnel-manager I] vscode to open the tunnel completed> object #0: #8000
+> object #1: "127.0.0.1"
+[Performance I] Starting monitor
+[Performance I] Checking if the codespace connection exists
+[Client:extension:feb1:resolver:resolve:1:background-tasks:post-attach-command-manager I] PostAttachCommandManager: commandsKey: codespaces.1010.runningPostAttachCommands
+[Client:extension:feb1:resolver:resolve:1:background-tasks:post-attach-command-manager I] PostAttachCommandManager: Running /bin/bash ~/environment/.devcontainer/postAttachCommand.sh in terminal Codespaces: /bin/bash ~/environment/.devcontainer/postAttachCommand.sh
+[Client:extension:feb1:resolver:resolve:1:background-tasks:post-attach-command-manager I] PostAttachCommandManager: Added Codespaces: /bin/bash ~/environment/.devcontainer/postAttachCommand.sh to codespaces.1010.runningPostAttachCommands
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient:1 V] checkConnectionWithTimeout -> 'started'
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] checking ssh connection
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] Sending #20 SessionRequestMessage (requestType=ping-check-connection)
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] Receiving #22 SessionRequestFailureMessage
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient:1 V] checkConnectionWithTimeout -> 'succeeded' t:4.0
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient:1 V] checkConnectionWithTimeout -> 'started'
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] checking ssh connection
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] Sending #21 SessionRequestMessage (requestType=ping-check-connection)
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] Receiving #23 SessionRequestFailureMessage
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient:1 V] checkConnectionWithTimeout -> 'succeeded' t:7.0
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient:1 V] checkConnectionWithTimeout -> 'started'
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] checking ssh connection
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] Sending #22 SessionRequestMessage (requestType=ping-check-connection)
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] Receiving #24 SessionRequestFailureMessage
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient:1 V] checkConnectionWithTimeout -> 'succeeded' t:6.0
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient:1 V] checkConnectionWithTimeout -> 'started'
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] checking ssh connection
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] Sending #23 SessionRequestMessage (requestType=ping-check-connection)
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] Receiving #26 SessionRequestFailureMessage
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient:1 V] checkConnectionWithTimeout -> 'succeeded' t:6.0
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient:1 V] checkConnectionWithTimeout -> 'started'
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] checking ssh connection
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] Sending #24 SessionRequestMessage (requestType=ping-check-connection)
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] Receiving #27 SessionRequestFailureMessage
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient:1 V] checkConnectionWithTimeout -> 'succeeded' t:5.0
+[Performance I] Executed get-performance-data using gRPC
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient:1 V] checkConnectionWithTimeout -> 'started'
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] checking ssh connection
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] Sending #25 SessionRequestMessage (requestType=ping-check-connection)
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] Receiving #28 SessionRequestFailureMessage
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient:1 V] checkConnectionWithTimeout -> 'succeeded' t:6.0
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient:1 V] checkConnectionWithTimeout -> 'started'
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] checking ssh connection
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] Sending #26 SessionRequestMessage (requestType=ping-check-connection)
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] Receiving #30 SessionRequestFailureMessage
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient:1 V] checkConnectionWithTimeout -> 'succeeded' t:6.0
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient:1 V] checkConnectionWithTimeout -> 'started'
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] checking ssh connection
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] Sending #27 SessionRequestMessage (requestType=ping-check-connection)
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] Receiving #31 SessionRequestFailureMessage
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient:1 V] checkConnectionWithTimeout -> 'succeeded' t:5.0
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient:1 V] checkConnectionWithTimeout -> 'started'
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] checking ssh connection
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] Sending #28 SessionRequestMessage (requestType=ping-check-connection)
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] Receiving #32 SessionRequestFailureMessage
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient:1 V] checkConnectionWithTimeout -> 'succeeded' t:5.0
+[Performance I] Executed get-performance-data using gRPC
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient:1 V] checkConnectionWithTimeout -> 'started'
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] checking ssh connection
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] Sending #29 SessionRequestMessage (requestType=ping-check-connection)
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] Receiving #34 SessionRequestFailureMessage
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient:1 V] checkConnectionWithTimeout -> 'succeeded' t:5.0
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient:1 V] checkConnectionWithTimeout -> 'started'
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] checking ssh connection
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] Sending #30 SessionRequestMessage (requestType=ping-check-connection)
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] Receiving #35 SessionRequestFailureMessage
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient:1 V] checkConnectionWithTimeout -> 'succeeded' t:5.0
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient:1 V] checkConnectionWithTimeout -> 'started'
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] checking ssh connection
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] Sending #31 SessionRequestMessage (requestType=ping-check-connection)
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] Receiving #36 SessionRequestFailureMessage
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient:1 V] checkConnectionWithTimeout -> 'succeeded' t:5.0
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient:1 V] checkConnectionWithTimeout -> 'started'
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] checking ssh connection
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] Sending #32 SessionRequestMessage (requestType=ping-check-connection)
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] Receiving #38 SessionRequestFailureMessage
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient:1 V] checkConnectionWithTimeout -> 'succeeded' t:5.0
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] Receiving #40 ChannelCloseMessage (recipientChannel=2)
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient I] SshChannel(Type: session, Id: 2, RemoteId: 1) closed remotely. (S: 0, R: 51)
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] Receiving #42 ChannelCloseMessage (recipientChannel=3)
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient I] SshChannel(Type: session, Id: 3, RemoteId: 2) closed remotely. (S: 0, R: 51)
+[Client:extension:feb1:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider V] sending activity heartbeat
+[Client:extension:feb1:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Executed notify-codespace-of-client-activity using gRPC
+[Client:extension:feb1:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Activity signal sent with result true
+[Performance I] Executed get-performance-data using gRPC
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient:1 V] checkConnectionWithTimeout -> 'started'
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] checking ssh connection
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] Sending #33 SessionRequestMessage (requestType=ping-check-connection)
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] Receiving #43 SessionRequestFailureMessage
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient:1 V] checkConnectionWithTimeout -> 'succeeded' t:5.0
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient:1 V] checkConnectionWithTimeout -> 'started'
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] checking ssh connection
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] Sending #34 SessionRequestMessage (requestType=ping-check-connection)
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient V] Receiving #44 SessionRequestFailureMessage
+[Client:extension:feb1:liveshare:connection:46617513490E9C3332465A767B2DA9102321:liveshare:WorkspaceClient:1 V] checkConnectionWithTimeout -> 'succeeded' t:4.0

@@ -1,0 +1,2 @@
+2024-02-21 06:40:50.967 [info] [auth] Invalid copilot token: missing token: 403 
+2024-02-21 06:40:50.969 [error] [default] Extension activation failed: "No access to GitHub Copilot found. You are currently logged in as ayuuum."

@@ -1,0 +1,7 @@
+2024-02-21 08:28:09.290 [info] [gitExtensionService] Initializing Git extension service.
+2024-02-21 08:28:09.290 [info] [gitExtensionService] Successfully activated the vscode.git extension.
+2024-02-21 08:28:09.290 [info] [gitExtensionService] Enablement state of the vscode.git extension: true.
+2024-02-21 08:28:09.290 [info] [gitExtensionService] Successfully registered Git commit message provider.
+2024-02-21 08:28:12.554 [info] [auth] Logged in as ayuuum
+2024-02-21 08:28:13.615 [info] [auth] Invalid copilot token: missing token: 403 
+2024-02-21 08:28:13.619 [info] [extension] GitHub Copilot could not connect to server. Extension activation failed: "No access to GitHub Copilot found. You are currently logged in as ayuuum."

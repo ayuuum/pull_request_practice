@@ -1,0 +1,57 @@
+2024-02-21 06:52:25.136 [info] Log level: Info
+2024-02-21 06:52:25.136 [info] Validating found git in: "git"
+2024-02-21 06:52:25.136 [info] Using git "2.43.0" from "git"
+2024-02-21 06:52:25.136 [info] > git rev-parse --show-toplevel [26ms]
+2024-02-21 06:52:25.136 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-21 06:52:25.136 [info] > git rev-parse --show-toplevel [4ms]
+2024-02-21 06:52:25.136 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-21 06:52:25.136 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-21 06:52:25.136 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-21 06:52:25.137 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-21 06:52:25.137 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-21 07:10:16.337 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-21 07:10:16.366 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-02-21 07:10:16.378 [info] Open repository: /home/vscode/progate_path/self_introduction_branch/self_introduction
+2024-02-21 07:10:16.439 [info] No remotes found in the git config file.
+2024-02-21 07:10:16.441 [info] > git config --get commit.template [28ms]
+2024-02-21 07:10:16.441 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-02-21 07:10:16.470 [info] > git status -z -uall [3ms]
+2024-02-21 07:10:16.505 [info] > git config --get commit.template [3ms]
+2024-02-21 07:10:16.533 [info] No remotes found in the git config file.
+2024-02-21 07:10:16.534 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-02-21 07:10:16.573 [info] > git status -z -uall [4ms]
+2024-02-21 07:11:16.343 [info] > git check-ignore -v -z --stdin [2ms]
+2024-02-21 07:12:16.409 [info] > git config --local branch.main.github-pr-owner-number [2ms]
+2024-02-21 07:12:16.439 [info] > git config --local branch.main.remote [2ms]
+2024-02-21 07:15:16.432 [info] > git config --local branch.main.github-pr-owner-number [3ms]
+2024-02-21 07:20:16.462 [info] > git config --local branch.main.github-pr-owner-number [2ms]
+2024-02-21 07:25:16.498 [info] > git config --local branch.main.github-pr-owner-number [5ms]
+2024-02-21 07:30:16.528 [info] > git config --local branch.main.github-pr-owner-number [2ms]
+2024-02-21 07:35:16.577 [info] > git config --local branch.main.github-pr-owner-number [2ms]
+2024-02-21 07:40:16.609 [info] > git config --local branch.main.github-pr-owner-number [1ms]
+2024-02-21 07:45:16.644 [info] > git config --local branch.main.github-pr-owner-number [2ms]
+2024-02-21 07:50:16.675 [info] > git config --local branch.main.github-pr-owner-number [2ms]
+2024-02-21 07:55:16.704 [info] > git config --local branch.main.github-pr-owner-number [2ms]
+2024-02-21 08:00:16.735 [info] > git config --local branch.main.github-pr-owner-number [2ms]
+2024-02-21 08:05:16.768 [info] > git config --local branch.main.github-pr-owner-number [2ms]
+2024-02-21 08:10:16.809 [info] > git config --local branch.main.github-pr-owner-number [2ms]
+2024-02-21 08:15:16.840 [info] > git config --local branch.main.github-pr-owner-number [2ms]
+2024-02-21 08:20:08.151 [info] No remotes found in the git config file.
+2024-02-21 08:20:08.153 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-02-21 08:20:08.213 [info] > git status -z -uall [34ms]
+2024-02-21 08:20:08.251 [info] > git config --local branch.main.github-pr-owner-number [2ms]
+2024-02-21 08:20:08.281 [info] > git config --local branch.main.remote [4ms]
+2024-02-21 08:20:16.868 [info] > git config --local branch.main.github-pr-owner-number [2ms]
+2024-02-21 08:25:16.898 [info] > git config --local branch.main.github-pr-owner-number [1ms]
+2024-02-21 08:25:44.731 [info] No remotes found in the git config file.
+2024-02-21 08:25:44.733 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-02-21 08:25:44.766 [info] > git status -z -uall [2ms]
+2024-02-21 08:26:08.231 [info] > git check-ignore -v -z --stdin [2ms]
+2024-02-21 08:27:55.285 [info] No remotes found in the git config file.
+2024-02-21 08:27:55.286 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-02-21 08:27:55.318 [info] > git status -z -uall [2ms]
+2024-02-21 08:30:16.933 [info] > git config --local branch.main.github-pr-owner-number [2ms]
+2024-02-21 08:35:16.966 [info] > git config --local branch.main.github-pr-owner-number [2ms]
+2024-02-21 08:40:16.997 [info] > git config --local branch.main.github-pr-owner-number [1ms]
+2024-02-21 08:45:17.054 [info] > git config --local branch.main.github-pr-owner-number [2ms]
+2024-02-21 08:50:17.096 [info] > git config --local branch.main.github-pr-owner-number [1ms]
